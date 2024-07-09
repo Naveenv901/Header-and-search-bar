@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+    background-color: cornsilk;
+}
+.header{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+li:hover{
+    transform:scale(1.2);
+    font-weight: bolder;
+}
+ul,li{
+    display: inline;
+    margin-left: 10px;
+    transition: 0s;
+}
+img{
+    margin-left: 10px;
+    padding-top: 10px;
+    transition: 0s;
+}
+input{
+    width: 200px;
+}
+.search-bar{
+    background-color: gray;
+    padding: 10px;
+}
+input:hover{
+  background-color: lavender;
+  color: black;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
